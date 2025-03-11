@@ -1,0 +1,25 @@
+body{
+    background-image: url('https://vejario.abril.com.br/wp-content/uploads/2016/12/ovo-cozido.jpg?crop=1&resize=1212,909');
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2{
+    text-align: center; /* Centraliza textos */
+}
+
+.titulo__1 {
+    background-color: white;
+    width: 45%;
+    margin: auto;
+    padding: 1em;
+    border-radius: 15px;
+}
+
+.titulo__2 {
+    background-color: yellow;
+    width: 45%;
+    margin: auto;
+    border-radius: 5px;
+}
