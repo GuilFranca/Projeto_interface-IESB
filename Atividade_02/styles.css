@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em 0 1em 0;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.logo__text {
+    color: white;
+    letter-spacing: -3px;
+}
+
+.logo__text__span {
+    color: black;
+    font-size: 25px;
+    letter-spacing: -3px;
+    transition: ease 0.5s;
+}
+
+.logo__text__span:hover {
+    color: white;
+}
+
+.nav__bar ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
