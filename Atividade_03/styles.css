@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Faz o body ocupar a tela inteira */
+    margin: 0; /* Remove margens padrão */
+    flex-direction: column; /* Garante que os elementos fiquem um abaixo do outro */
+}
+
+
+h1 {
+    color: red; /* Altera a cor do título para vermelho */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Altera a fonte do título */
+}
+
+h2 {
+    background-color: red;
+    color: white;
+    padding: 0.5em;
+    border-radius: 5px;
+}
+
+fieldset {
+    display: flex; /* Utiliza o dispay flex para poder liberar o flex-direction */
+    flex-direction: column; /* Faz com que os input fiquem um em baixo do outro como uma coluna */
+}
+
+a {
+    color: black;
+    transition: all 0.4s; /* Define qual será o tempo de transição da tag a */
+}
+
+a:hover {
+    color: white; /* Define qua quando o mouse passar por cima da tag a, a mesma mudará sua cor para verde */
+}
+
+button {
+    background-color: red;
+    color: white;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    transition: ease 0.5s;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: red;
+}
