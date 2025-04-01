@@ -1,0 +1,32 @@
+.galeria {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.galeria h2 {
+    margin: 1em 0 1em 0;
+    border-bottom: 1px solid black;
+    width: 65%;
+    text-align: center;
+}
+
+.container__img {
+    width: 65%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.container__img img {
+    width: 50%;
+    height: 25vw;
+}
+
+.container__img p {
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid black;
+    width: 50%;
+    text-align: center;
+    justify-self: center;
+}
