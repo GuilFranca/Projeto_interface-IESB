@@ -1,0 +1,39 @@
+.section__principais__produtos {
+    display: flex;
+    gap: 5em;
+    background-color: black;
+    padding: 5em;
+    width: 100%;
+    justify-content: center;
+}
+
+.card__produto .img__card__produto {
+    width: 150px;
+    height: 150px;
+}
+
+.descricao__card__produto {
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;;
+    font-weight: 500;
+}
+
+.card__produto {
+    width: 180px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    gap: 1em;
+    padding: 1em;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.card__produto:hover {
+    transform: scale(1.1);
+}

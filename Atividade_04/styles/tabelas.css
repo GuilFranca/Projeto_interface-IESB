@@ -1,0 +1,38 @@
+.tabelas {
+    margin: 1em 0;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    width: 65%;
+}
+
+.borda {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.borda, .borda th, .borda td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+.estilizada {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.estilizada th, .estilizada td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.estilizada th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.estilizada tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

@@ -1,0 +1,10 @@
+.section__apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;    
+}
+
+.section__apresentacao h2 {
+    font-size: 50px;
+    font-family: "Special Gothic Expanded One", sans-serif;
+}

@@ -1,0 +1,20 @@
+/* Importando o estilo do header */
+@import url(./header.css);
+
+/* Importando o estilo da página galeria */
+@import url(./galeria.css);
+
+/* Importando o estilo da página audiovisual */
+@import url(./audiovisual.css);
+
+/* Importando o estilo da página tabelas */
+@import url(./tabelas.css);
+
+/* Importando estilo section__apresentacao */
+@import url(./section__apresentacao.css);
+
+/* Importando fontes */
+@import url(./fonts.css);
+
+/* Importando estilos cards */
+@import url(./section__principais__produtos.css);
