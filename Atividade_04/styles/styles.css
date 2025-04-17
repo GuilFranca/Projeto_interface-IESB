@@ -18,3 +18,9 @@
 
 /* Importando estilos cards */
 @import url(./section__principais__produtos.css);
+
+/* Importando estilos section__page__produto */
+@import url(./section__page__produto.css);
+
+/* Importando estilo swiper__page__produto */
+@import url(./swiper__page__produto.css);
